@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gallery</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Photography Gallery</h1>
+        <a href="/">Home</a>
+    </header>
+    <main>
+        <div class="gallery">
+            <div th:each="image : ${images}" class="gallery-item">
+                <img th:src="@{'/images/gallery/' + image}" alt="Gallery Image">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Photography Studio</p>
+    </footer>
+</body>
+</html>

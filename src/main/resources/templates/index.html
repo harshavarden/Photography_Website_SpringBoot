@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Photography Website</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-brand">Photography Website</div>
+        <ul class="nav-links">
+            <li><a href="/" class="nav-item">Home</a></li>
+            <li><a href="/gallery" class="nav-item">Gallery</a></li>
+            <li><a href="/upload" class="nav-item">Upload</a></li>
+        </ul>
+    </nav>
+    
+    <div class="dashboard">
+        <aside class="sidebar">
+            <ul>
+                <li><a href="/">🏠 Home</a></li>
+                <li><a href="/gallery">🖼️ Gallery</a></li>
+                <li><a href="/upload">⬆️ Upload</a></li>
+                <li><a href="/about">📖 About</a></li>
+            </ul>
+        </aside>
+        <main class="content">
+            <div th:replace="${content}"></div>
+        </main>
+    </div>
+</body>
+</html>
