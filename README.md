@@ -51,8 +51,10 @@ The application follows a layered architecture to promote modularity and ease of
 
 Tech Stack
 >Backend: Java, Spring Boot (Spring Data JPA, Thymeleaf, Spring MVC)
->Frontend: HTML5, CSS3, Bootstrap
+>Frontend: Thymeleaf templates with custom CSS for styling and HTML5
 >Database: H2 (In-memory database for testing and development)
+>File Upload: Multipart file upload for handling user images
+>API: REST endpoints to handle file uploads and other data operations
 >Build Tool: Maven (version - 3.4.0)
 >Development Environment: IntelliJ IDEA / Eclipse
 >Entity Layer: Contains JPA entity classes for defining database schemas.
