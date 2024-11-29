@@ -27,9 +27,8 @@ photography_website/
 │   │   │   │       ├── service/                            // Service layer
 │   │   │   │       │   └── ImageService.java               // Business logic for image handling
 │   │   │   │       ├── exception/                          // Custom exceptions
-│   │   │   │       │   └── FileUploadException.java        // Exception for upload failures
-│   │   │   │       └── config/                             // Configuration files
-│   │   │   │           └── WebConfig.java                  // Web configuration (optional)
+│   │   │   │           └── FileUploadException.java        // Exception for upload failures
+│   │   │   │           
 │   │   ├── resources/
 │   │   │   ├── templates/
 │   │   │   │   ├── index.html                             // Homepage template
